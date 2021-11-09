@@ -1,8 +1,7 @@
 module.exports = {
   root: true,
   // extends: '@react-native-community',
-   // extends: '@react-native-community',
-   parserOptions: {
+  parserOptions: {
     ecmaVersion: 7,
     sourceType: 'module',
     ecmaFeatures: {
