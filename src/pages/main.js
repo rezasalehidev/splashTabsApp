@@ -63,6 +63,7 @@ const Main = () => {
           return (
             <View
               key={index}
+              key={index}
               style={{
                 justifyContent: 'center',
                 alignItems: 'center',
@@ -99,7 +100,7 @@ const Main = () => {
         const dotPosition = Animated.divide(scrollX, SIZES.width);
 
         return (
-          <View style={styles.dotsRootContainer}>
+          <View style={styles.dotsRootContainer} key={index}>
             <View style={styles.dotsContainer}>
               {onBoardings.map((item, index) => {
                 const opacity = dotPosition.interpolate({
