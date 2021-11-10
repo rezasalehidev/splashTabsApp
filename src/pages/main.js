@@ -14,21 +14,18 @@ const {FONTS, SIZES, COLORS} = theme;
 
 const onBoardings = [
   {
-    title: "Let's Travelling",
-    description:
-      'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut',
+    title: 'Pitzza Italiano',
+    description: 'Pittza iS Best 1',
     img: onboarding1,
   },
   {
-    title: 'Navigation',
-    description:
-      'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut',
+    title: 'Pitzza2',
+    description: 'Pittza iS Best 2',
     img: onboarding2,
   },
   {
-    title: 'Destination',
-    description:
-      'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut',
+    title: 'Pitzza3',
+    description: 'Pittza iS Best 3',
     img: onboarding3,
   },
 ];
@@ -74,16 +71,19 @@ const Main = () => {
               <Image
                 source={item.img}
                 resizeMode="cover"
-                style={{width: '100%', height: '100%'}}
+                style={{width: '100%', height: '80%', borderRadius: 20}}
               />
               <View
                 style={{
                   position: 'absolute',
-                  bottom: 80,
+                  top: 20,
                   left: 40,
                   right: 40,
                   justifyContent: 'center',
                   alignItems: 'center',
+                  backgroundColor: COLORS.white,
+                  padding: SIZES.padding,
+                  borderRadius: SIZES.radius,
                 }}>
                 <Text style={{fontSize: 20, marginTop: 10}}>{item.title}</Text>
                 <Text style={{fontSize: 15, marginTop: 10}}>
