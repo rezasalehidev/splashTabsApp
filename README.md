@@ -8,10 +8,18 @@ create Splash Screen Scroll (Start App) (Android &amp; Ios)
 
 
 <p dir="rtl">با همکاری در این پروژه شما هم جزئی از دنیای اوپن سورس خواهید بود</p>
+   
+   first clone 
 
 ```
-https://github.com/rezasalehidev/cafeShowApp.git
+https://github.com/rezasalehidev/splashTabsApp.git
 ```
+   
+   next 
+   ```
+npm install
+```
+
 
 <h4 dir = "rtl"> Cooperation method </h4>
 <ul dir = "rtl">
